@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+}
+.content > table {
+    border: solid 1px lightgray;
+    width: 300px;
+    height: 150px;
+}
+
+.content > table > thead {
+    background-color: black;
+    color: white;
+}
+
+.content > table > tbody > tr:hover {
+    border: solid 1px black;
+    background-color: lightcyan;
+}
